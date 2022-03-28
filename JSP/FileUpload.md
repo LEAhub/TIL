@@ -32,7 +32,7 @@ method = "post" enctype="multipart/form-data"를 가져야 한다.
 
 
 
-**applcation/x-www-form-urlencoded** : 생략할 시 디폴트인 applcation/x-www-form-urlencoded 방식을 사용한다.
+● **applcation/x-www-form-urlencoded** : 생략할 시 디폴트인 applcation/x-www-form-urlencoded 방식을 사용한다.
 
 
 
@@ -42,11 +42,11 @@ method = "post" enctype="multipart/form-data"를 가져야 한다.
 
 
 
- **multipart/form-data** : 전송 데이터를 인코딩 하지 않는다. 업로드할 때 사용한다.
+●  **multipart/form-data** : 전송 데이터를 인코딩 하지 않는다. 업로드할 때 사용한다.
 
 
 
- **text/plain** : 공백을 +로 변환하지 않고 특수문자는 인코딩하지 않는다. 
+ ● **text/plain** : 공백을 +로 변환하지 않고 특수문자는 인코딩하지 않는다. 
 
 
 
