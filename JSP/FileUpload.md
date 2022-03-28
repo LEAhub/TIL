@@ -139,3 +139,20 @@ $.ajax() 메소드는 IE 웹 브라우저의 경우 10 이상에서만 가능하
 ```
 
 ● 자바스크립트에서의 코드
+
+$("폼아이디").ajaxForm();
+
+
+
+form 엘리먼트 객체에 ajaxForm() 메소드를 사용해 action을 취한 페이지로 데이터를 전송한다.
+
+
+
+전송 후 결과가 필요할 시엔 success : function(data, status){}를 사용한다.
+```
+$("#form").ajaxForm({
+		success: function(data, status){//업로드에 성공하면 수행
+   			$("#result").html(data);//응답받은 결과를 표시
+   		}
+    });
+```
