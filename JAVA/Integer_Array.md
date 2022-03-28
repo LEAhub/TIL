@@ -76,4 +76,5 @@ print() 메소드로 출력한 것마냥 각 요소에 구분자 없이 그대�
 ```
 char[] charArr = {'c', 'a', 'f', 'e'};
 System.out.println(charArr);
+/// result = cafe
 ```
