@@ -36,11 +36,11 @@ MultipartRequest mprq =
         new MultipartRequest(request, fileSave, 5*1024, "utf-8", new DefualtFileRenamePolicy());
 ```
 
->   > request : javax.servlet.http.HttpServletRequest request / HttpServletRequest의 객체를 매개변수로 받는다.
+>   > ** request ** : javax.servlet.http.HttpServletRequest request / HttpServletRequest의 객체를 매개변수로 받는다.
 
 
 
->   > fileSave : 파일을 업로드할 폴더의 경로(문자열)을 담고 있는 매개변수를  MultipartRequest의 생성자 매개변수로 받는다.
+>   > ** fileSave ** : 파일을 업로드할 폴더의 경로(문자열)을 담고 있는 매개변수를  MultipartRequest의 생성자 매개변수로 받는다.
 
 
 
@@ -52,15 +52,15 @@ MultipartRequest mprq =
 
 
 
->   > 5*1024 : 파일의 최대 크기 설정
+>   > ** 5*1024 ** : 파일의 최대 크기 설정
 
 
 
->   > "utf-8" : 요청 데이터의 한글 인코딩 방식 설정
+>   > ** "utf-8" ** : 요청 데이터의 한글 인코딩 방식 설정
 
 
 
->   > new DefualtFileRenamePolicy() : 업로드할 파일명이 기존에 존재하는 파일명과 중복되지 않도록 방지하기 위해 설정
+>   > ** new DefualtFileRenamePolicy() ** : 업로드할 파일명이 기존에 존재하는 파일명과 중복되지 않도록 방지하기 위해 설정
 
 
 
