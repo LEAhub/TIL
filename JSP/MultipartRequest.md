@@ -3,7 +3,7 @@ MultipartRequest 클래스
 
 
 
-## cos.jar 라이브러리
+### cos.jar 라이브러리
 
 파일을 업로드하고 폼으로부터 넘어오는 데이터를 얻어내는 라이브러리이다.
 
@@ -21,7 +21,7 @@ MultipartRequest 클래스
 
 
 
-> 1. MultipartRequest 클래스의 생성자
+> ## 1. MultipartRequest 클래스의 생성자
 
 MultipartRequest의 클래스를 사용하기 위해 객체를 생성한다. 객체를 생성하기 위해선 new연산자를 사용하고 5개의 매개변수가 필요하다.
 
@@ -60,10 +60,10 @@ MultipartRequest mprq =
 
 
 
-> 2. MultipartRequest 클래스의 메소드
+> ## 2. MultipartRequest 클래스의 메소드
 
 
->   > getContentType() 메소드 :
+>   > ### ● getContentType() 메소드 :
 
 
 
@@ -85,7 +85,7 @@ MultipartRequest mprq =
 
 
 
->   > getFile() 메소드 :
+>   > ### ● getFile() 메소드 :
 
 
 
@@ -98,7 +98,7 @@ MultipartRequest mprq =
 
 
 
->   > getFileNames() 메소드 :
+>   > ### ● getFileNames() 메소드 :
 
 
 
@@ -129,7 +129,7 @@ MultipartRequest mprq =
 
 
 
->   > getFilesystemName() 메소드 :
+>   > ### ● getFilesystemName() 메소드 :
 
 
 
@@ -151,7 +151,7 @@ MultipartRequest mprq =
 
 
 
->   > getOriginalFileName() 메소드 :
+>   > ### ● getOriginalFileName() 메소드 :
 
 
 
@@ -175,7 +175,7 @@ MultipartRequest mprq =
 
 
 
->   > getParameter() 메소드 :
+>   > ### ● getParameter() 메소드 :
 
 
 
@@ -189,7 +189,7 @@ MultipartRequest mprq =
 
 
 
->   > getParameterNames() 메소드 :
+>   > ### ● getParameterNames() 메소드 :
 
 
 
@@ -214,7 +214,7 @@ MultipartRequest mprq =
 
 
 
->   > getParameterValues() 메소드 :
+>   > ### ● getParameterValues() 메소드 :
 
 
 
