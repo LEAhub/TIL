@@ -44,11 +44,11 @@ MultipartRequest mprq =
 
 
 
->   >            만일 해당 폴더가 없을 경우 
+>   > 만일 해당 폴더가 없을 경우 
 
 
 
->   >            객체를 생성할 때 경로를 적은 문자열을 매개변수로 보내면 해당 경로에 입력한 폴더명의 폴더가 자동으로 생성된다.
+>   > 객체를 생성할 때 경로를 적은 문자열을 매개변수로 보내면 해당 경로에 입력한 폴더명의 폴더가 자동으로 생성된다.
 
 
 
@@ -93,6 +93,14 @@ MultipartRequest mprq =
 
 
 
+
+
+
+
+
+
+
+
 >   > ### ● getFile() 메소드 :
 
 
@@ -102,6 +110,14 @@ MultipartRequest mprq =
 >   >   > File file = upload.getFile(name);
 >   >   > ```
 >   >   > 주로 파일의 크기를 얻어낼 때 사용된다.
+
+
+
+
+
+
+
+
 
 
 
@@ -137,6 +153,12 @@ MultipartRequest mprq =
 
 
 
+
+
+
+
+
+
 >   > ### ● getFilesystemName() 메소드 :
 
 
@@ -152,6 +174,11 @@ MultipartRequest mprq =
 >   >   > ```
 >   >   > String filename = upload.getFilesystemName(name);
 >   >   > ```
+
+
+
+
+
 
 
 
@@ -183,6 +210,11 @@ MultipartRequest mprq =
 
 
 
+
+
+
+
+
 >   > ### ● getParameter() 메소드 :
 
 
@@ -192,6 +224,13 @@ MultipartRequest mprq =
 >   >   > String name = upload.getParameter(name);
 >   >   > ```
 >   >   > name의 속성값을 반환한다.
+
+
+
+
+
+
+
 
 
 
@@ -214,6 +253,10 @@ MultipartRequest mprq =
 
 
 >   >   > 파라미터 명을 반환하는 메소드를 사용할 수 있고, 파라미터의 속성값을 반환하는 메소드를 사용할 수도 있다.
+
+
+
+
 
 
 
