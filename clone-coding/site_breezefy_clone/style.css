@@ -1,0 +1,454 @@
+body{
+    font-size: 16px;
+}
+
+*{margin:0;padding:0;}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body .backImg{
+    position: fixed;
+    z-index: -1;
+    width: 1521px;
+    margin-left: -.5rem;
+    margin-top: -.5rem;
+}
+
+.navbar{
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.7);
+    margin-top: -15rem;
+    height: 6.5rem;
+    width: 1521px;
+    margin-left: -.5rem;
+}
+
+.navbar img{
+    margin-left: 5rem;
+    height: 4.3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.navbar .move_page{
+    margin-top: 37%;
+    margin-left: -5rem;
+    font-size: .8rem;
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar .move_page i{
+    color: #b4b4b4;
+    padding: .7rem .8rem;
+}
+
+.navbar .move_page i:hover{
+    color: #e8e8e8;
+}
+
+.navbar .move_page .move_up, .move_down{
+    border: 1px solid #b4b4b4;
+    margin-bottom: .3rem;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.navbar .move_page .move_up:hover, .move_down:hover{
+    border: 1px solid #e8e8e8;
+    color: #e8e8e8;
+    transition: all 0.5s ease-in-out;
+}
+
+header{
+    z-index: 100;
+    position: fixed;
+}
+
+.button_shop{
+    background-color:rgba(255, 255, 255, 0.7);
+    position: absolute;
+    font-size: .95rem;
+    display: block;
+    width: 10rem; height: 13rem;
+    top: -10.5rem;
+    left: 34%;
+    cursor: default;
+    color: #6b6b6b;
+    font-weight: revert;
+    padding-top: 1rem;
+}
+
+.button_shop .shop_list{
+    cursor: pointer;
+    padding: .5rem 0;
+}
+
+.button_shop .shop_list:hover{
+    color: #d94f01;
+    transition: all 0.5s ease-in-out;
+}
+
+.select{
+    display: flex;
+    margin-left: 0.4rem;
+}
+
+.select a{
+    text-decoration: none;
+    color: black;
+}
+
+.select #button_shop{
+    cursor: default;
+}
+
+.select_menu{
+    margin-top: 2.5rem;
+}
+
+.select_menu a{
+    font-size: 1.1rem;
+    margin-left: 3.4rem;
+}
+
+.select_menu .select_list:hover{
+    color: red;
+    transition: all 0.5s ease-in-out;
+}
+
+.client_select{
+    margin-left: 17.9rem;
+    font-size: .75rem;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.client_select a{
+    margin-left: 2rem;
+}
+
+.client_select .icons{
+    margin-left: 2.4rem;
+    font-size: 1.4rem;
+    margin-top: -.7rem;
+}
+
+.client_select .icons i{
+    margin-right: .6rem;
+    cursor: pointer;
+}
+
+ul,li{list-style:none;}
+.slide{
+    background-color: white;
+    height:560px;
+    overflow:hidden;
+    margin-top: 15rem;
+    width: 1525px;
+    position: relative;
+    top: -.5rem;
+    cursor: pointer;
+}
+.slide ul{width:calc(100% * 4);display:flex;animation:slide 30s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+.slide li{width:calc(100% / 4);height:555px;}
+.slide li:nth-child(1) {
+    background-image: url("sildeImg/slideImg1.png");
+    background-size: contain;
+    position: relative;
+    left: 4rem;
+}
+.slide li:nth-child(2){
+    background-image: url("sildeImg/slideImg2.png");
+    background-size: contain;
+    position: relative;
+    left: 4rem;
+}
+.slide li:nth-child(3){
+    background-image: url("sildeImg/slideImg3.png");
+    background-size: contain;
+    position: relative;
+    left: 4rem;
+}
+.slide li:nth-child(4){
+    background-image: url("sildeImg/slideImg4.png");
+    background-size: contain;
+    position: relative;
+    left: 4rem;
+}
+@keyframes slide {
+  0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+  10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+  25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+  35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+  50% {margin-left:-200%;}
+  60% {margin-left:-200%;}
+  75% {margin-left:-300%;}
+  85% {margin-left:-300%;}
+  100% {margin-left:0;}
+}
+
+
+
+
+.phone_case{
+    text-align: center;
+    position: relative;
+    background-color: white;
+    width: 1521px;
+    top: -1rem;
+    left: -.5rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+
+}
+
+.phone_case .phone_span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.col3{
+    display: flex;
+    margin: 5% 10%;
+}
+
+.phone_case img{
+    border-radius: 2px;
+}
+
+.phone_case img:hover{
+     transition: all 0.5s ease-in-out;
+}
+
+.phone_case .phones img{
+    margin-right: 0.2rem;
+    padding: 2rem 8rem;
+    cursor: pointer;
+}
+
+.phone_case .phones .info_phone{
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.phone_case .phones .case_price{
+    font-size: 0.75rem;
+}
+
+.electric_sticker{
+    position: relative;
+    text-align: center;
+    background-color: white;
+    width: 1521px;
+    left: -.5rem; top: -1rem;
+    padding-bottom: 2rem;
+}
+
+.head_span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.electric_sticker .stickers img{
+    margin-right: 0.2rem;
+    padding: 2rem 4rem;
+    cursor: pointer;
+}
+
+.electric_sticker .stickers .info_sticker{
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.originPrice{
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.discPrice{
+    font-size: 0.8rem;
+}
+
+.discPrice .span{
+    color: red;
+}
+
+.showBackImg{
+    height: 40rem;
+    width: 1521px;
+    margin-left: -.5rem;
+    background-color: transparent;
+}
+
+.showBackImg .main{
+    font-size: 5rem;
+    position: absolute;
+    top: 385rem;
+    margin-left: 40%;
+    color: white;
+}
+
+.showBackImg .sub{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 395rem;
+    margin-left: 41%;
+    color: white;
+}
+.electric_case{
+    background-color: white;
+    position: relative;
+    top: 20rem;
+    text-align: center;
+    width: 1521px;
+    left: -.5rem;
+    padding-top: 3rem;
+}
+
+.electric_case .electric_cases img{
+    margin-right: 0.2rem;
+    padding: 2rem 4rem;
+    cursor: pointer;
+}
+
+.electric_case .info_product{
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.main_box{
+    background-color: #d94f01;
+}
+
+.img_main_box{
+    background-color: white;
+    width: 1521px;
+    height: 150px;
+    position: relative;
+    top: 15.2rem;
+    padding-top: 5rem;
+    text-align: center;
+    left: -.5rem;
+}
+.img_main_box .main_box{
+    background-color: white;
+    display: flex;
+}
+.img_main_box .main_box .img_box{
+    width: 215px; height: 340px;
+    margin-left: 1rem;
+    position: relative;
+    left: 11rem;
+    cursor: pointer;
+    border: 1px solid #d2d2d2;
+}
+
+.img_main_box .main_box .img_box .customer_product{
+    border-bottom: 1px solid #d2d2d2;
+    width: 190px;
+    margin-left: 5px;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.img_main_box .main_box .img_box .customer_account{
+    text-align: left;
+    font-size: .8rem;
+    margin-left: 5px;
+}
+
+.brezeefy_account{
+    background-color: white;
+    position: relative;
+    top: 29.2rem;
+    padding-top: 3rem;
+    text-align: center;
+    width: 1521px;
+    left: -.5rem;
+    padding-bottom: 3rem;
+}
+
+.brezeefy_account a{
+    color: white;
+    text-decoration: none;
+    font-size: .9rem;
+    padding: .2rem 1.8rem;
+}
+
+.brezeefy_account .instagram{
+    border: 1px solid #0195F6;
+    background-color: #0195F6;
+    border-radius: 5px;
+    padding: .2rem .3rem;
+    position: relative;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.footer1{
+    background-color: white;
+    width: 1521px;
+    left: -.5rem;
+    position: relative;
+    top: 29.2rem;
+    border-top: 1px solid #d2d2d2;
+    display: flex;
+}
+
+.footer1 .footer_info{
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 4rem;
+    width: 12rem;
+}
+
+.footer1 .footer_info .footer_main .information{
+    cursor: pointer;
+}
+
+.footer1 .footer_info .bottom_line{
+    border-top: 2px solid #000000;
+    width: .8rem;
+}
+
+.footer1 .footer_info .footer_main{
+    font-size: .8rem;
+}
+
+.footer1 .footer_info .footer_main .select_bank{
+    margin-top: .3rem;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.footer1 .footer_info #icons{
+    font-size: 1.2rem;
+}
+
+.footer2{
+    background-color: white;
+    width: 1521px;
+    left: -.4rem;
+    display: flex;
+    position: absolute;
+    margin-top: 30.7%;
+    font-size: .8rem;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+.footer2 .company_info{
+    margin-left: 8.4rem;
+}
+
+.footer2 img{
+    margin-left: 13rem;
+    height: 6rem;
+    cursor: pointer;
+}
