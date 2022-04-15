@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.*;
 import static java.util.stream.Collectors.toList;
 
-public class collect {
+public class Collect {
     public static void main(String[] args) throws IOException {
 
         Dishes[] dishesArr = {
